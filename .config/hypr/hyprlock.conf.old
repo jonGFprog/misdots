@@ -1,8 +1,14 @@
-source=~/.config/hypr/hyprlock/colors.conf
+$text_color = rgba(e9e78fFF)
+$entry_background_color = rgba(1d1d0011)
+$entry_border_color = rgba(93918155)
+$entry_color = rgba(e9e78fFF)
+$font_family = Rubik
+$font_family_clock = Space Grotesk DemiBold
+$font_material_symbols = Material Symbols Rounded
 
 background {
     color = rgba(181818FF)
-
+    
     path = /home/stach/Pictures/Wallpapers/favs/Konachan.com - 376092 blue_eyes boots cape coyucom dress flowers gloves gray_hair hat headdress long_hair male night petals ponytail red_hair skirt sky stars wings.jpg
     blur_size = 5
     blur_passes = 1
@@ -22,17 +28,6 @@ input-field {
     position = 0, 20
     halign = center
     valign = center
-}
-
-label {
-    monitor =
-    text = $LAYOUT
-    color = $text_color
-    font_size = 14
-    font_family = $font_family
-    position = -30, 30
-    halign = right
-    valign = bottom
 }
 
 label { # Caps Lock Warning
