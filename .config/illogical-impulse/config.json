@@ -34,7 +34,7 @@
       "type": "scheme-fruit-salad"
     },
     "transparency": {
-      "automatic": true,
+      "automatic": false,
       "backgroundTransparency": 0.11,
       "contentTransparency": 0.57,
       "enable": true
@@ -80,7 +80,7 @@
       "workspaceZoom": 1
     },
     "thumbnailPath": "/home/stach/.config/hypr/custom/scripts/mpvpaper_thumbnails/FubukiAnimatedWallpaper.mp4.jpg",
-    "wallpaperPath": "/home/stach/Pictures/Wallpapers/G-tj5f3bwAAAlw2.jpg",
+    "wallpaperPath": "/home/stach/Pictures/homework/Konachan.com - 401265 blue_eyes blush bow braids cat_smile chibi gradient group halo headband hug long_hair parody pink_eyes red_eyes red_hair sky twins white_hair.png",
     "widgets": {
       "clock": {
         "cookie": {
@@ -209,7 +209,7 @@
     "superKey": "󰣇",
     "useFnSymbol": true,
     "useMacSymbol": false,
-    "useMouseSymbol": false
+    "useMouseSymbol": true
   },
   "conflictKiller": {
     "autoKillNotificationDaemons": false,
@@ -266,7 +266,7 @@
     },
     "night": {
       "automatic": false,
-      "colorTemperature": 3364,
+      "colorTemperature": 4987,
       "from": "23:00",
       "to": "06:30"
     }
@@ -439,10 +439,6 @@
           },
           {
             "size": 1,
-            "type": "audio"
-          },
-          {
-            "size": 1,
             "type": "mic"
           },
           {
@@ -452,6 +448,10 @@
           {
             "size": 1,
             "type": "gameMode"
+          },
+          {
+            "size": 1,
+            "type": "audio"
           }
         ]
       },
@@ -482,8 +482,8 @@
   },
   "tray": {
     "filterPassive": true,
-    "invertPinnedItems": true,
-    "monochromeIcons": true,
+    "invertPinnedItems": false,
+    "monochromeIcons": false,
     "pinnedItems": [
       "Fcitx"
     ],
@@ -492,6 +492,7 @@
   "updates": {
     "adviseUpdateThreshold": 75,
     "checkInterval": 120,
+    "enableCheck": true,
     "stronglyAdviseUpdateThreshold": 200
   },
   "waffles": {
